@@ -2,7 +2,7 @@ import openai
 
 import time
 
-openai.api_key = "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"
+openai.api_key = "XXX"
 history = '聊天记录：'
 
 digital_person = ['''你是一个名叫小琪的17岁少女。你身高160cm，体重54kg，血型是B型，生日是12月18日，星座是射手座。
