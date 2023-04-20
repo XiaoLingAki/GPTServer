@@ -174,9 +174,8 @@ def main():
 
 
 if __name__ == '__main__':
-
-    re = prompt_select(chara=Character('俊杰', '27', '男性', ['旅游', '摄影', '看电影'], ['讨论政治话题', '了解最新科技发展'],['成熟','稳重','正直']))
-    print(prompt_generate(re))
+    # re = prompt_select(chara=Character('俊杰', '27', '男性', ['旅游', '摄影', '看电影'], ['讨论政治话题', '了解最新科技发展'],['成熟','稳重','正直']))
+    # print(prompt_generate(re))
     # run_gpt()
-    # while True:
-    #     main()
+    while True:
+        main()
