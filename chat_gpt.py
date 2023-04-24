@@ -2,7 +2,7 @@ import openai
 
 import time
 
-openai.api_key = "XXX"
+openai.api_key = "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"
 history = '聊天记录：'
 
 digital_person = ['''你是一个名叫小琪的17岁少女。你身高160cm，体重54kg，血型是B型，生日是12月18日，星座是射手座。
@@ -174,8 +174,10 @@ def main():
 
 
 if __name__ == '__main__':
+
     # re = prompt_select(chara=Character('俊杰', '27', '男性', ['旅游', '摄影', '看电影'], ['讨论政治话题', '了解最新科技发展'],['成熟','稳重','正直']))
     # print(prompt_generate(re))
     # run_gpt()
     while True:
         main()
+
